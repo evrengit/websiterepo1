@@ -29,6 +29,8 @@ namespace webapp1
             app.MapRazorPages();
 
             app.Run();
+
+           throw new Exception("Cannot move further");
         }
     }
 }
