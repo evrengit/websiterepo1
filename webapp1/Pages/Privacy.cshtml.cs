@@ -14,7 +14,7 @@ namespace webapp1.Pages
 
         public void OnGet()
         {
+            throw new Exception("Cannot move further");
         }
     }
-
 }
