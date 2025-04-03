@@ -4,6 +4,8 @@ namespace webapp1
     {
         public static void Main(string[] args)
         {
+            throw new Exception("Cannot move further");
+
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
@@ -30,7 +32,7 @@ namespace webapp1
 
             app.Run();
 
-           throw new Exception("Cannot move further");
+          
         }
     }
 }
